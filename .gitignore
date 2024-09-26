@@ -1,0 +1,51 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+
+# WordPress content
+/wp-content/plugins/
+/wp-content/themes/*/node_modules/
+/wp-content/themes/*/bower_components/
+wp-content/uploads/
+
+# Backup files
+*.bak
+*.orig
+
+# IDE and editor files
+*.idea/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Composer files
+vendor/
+composer.lock
+
+# NPM and Yarn files
+node_modules/
+package-lock.json
+yarn-error.log
+
+# Logs and database files
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+
+# Other files
+/.env
+/.local
+
+# Ignore generated files from build processes
+/dist/
+build/

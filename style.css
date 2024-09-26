@@ -1,0 +1,109 @@
+/**
+ * Theme Name:        AKONIC
+ * Theme URI:         https://aconic.com/kashif-wahab
+ * Description:       Testing project for IKONIC
+ * Version:           1.0.0
+ * Author:            Kashif Wahab
+ * Author URI:        https://aconic.com/athor
+ * Tags:              block-patterns, full-site-editing
+ * Text Domain:       akonic-tech
+ * Domain Path:       /assets/lang
+ * Tested up to:      6.4
+ * Requires at least: 6.2
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+body {
+  background-color: #ccc;
+}
+
+header.main-header a {
+  font-size: 16px;
+  color: #fff;
+  margin: 0px 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+header.main-header ul {
+  display: flex;
+  list-style: none;
+}
+header.main-header {
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.thumbnail-box img {
+  width: 100%;
+}
+
+.thumbnail-box h5 {
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  font-size: 34px;
+}
+
+.thumbnail-box {
+  position: relative;
+}
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+}
+
+.blog_sidebar_wrapper h2 {
+  font-size: 27px;
+}
+
+ul.wp-block-latest-posts__list.wp-block-latest-posts li {
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+  padding-bottom: 9px;
+  font-size: 16px;
+}
+
+.sidebar {
+  margin-top: 40px;
+}
+
+body.blog {
+  background-color: #cccccc21;
+}
+
+section.mainContent .post-thumbnail img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+ul.sub-menu a {
+  font-size: 13px;
+}
+
+ul.sub-menu li {
+  border-bottom: 1px solid #ffffff59;
+}
+ul.sub-menu li a {
+  text-align: left;
+}
+ul.sub-menu {
+  display: none !important;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+li#menu-item-22:hover ul {
+  display: flex !important;
+  position: absolute;
+  background: orange;
+  width: 125px;
+}
